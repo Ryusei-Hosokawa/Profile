@@ -292,7 +292,6 @@ Parallax
     bottom: 2.562vw;
     left: 38.799vw;
     z-index: 30;
-    opacity: 0.9;
 }
 
 .para_photo_sapporo {
@@ -302,7 +301,7 @@ Parallax
     top: 13.909vw;
     left: 74.305vw;
     z-index: 10;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* Interest */
@@ -319,7 +318,7 @@ Parallax
     bottom: 9.883vw;
     left: 13.104vw;
     z-index: 20;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .para_photo_starry {
@@ -329,7 +328,6 @@ Parallax
     top: 2.562vw;
     left: 34.261vw;
     z-index: 40;
-    opacity: 0.95;
 }
 
 /* Interest text */
