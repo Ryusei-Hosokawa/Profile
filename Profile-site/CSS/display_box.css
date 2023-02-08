@@ -1,0 +1,75 @@
+/* Preliminarise */
+@charset "utf-8";
+
+/* Horizontal-scroll-adjustment */
+
+html {
+  max-height: 100vh;
+}
+
+body {
+  overscroll-behavior: none;
+  flex-wrap: nowrap;
+  height: 0;
+}
+
+#js-item,
+main,
+.parallax {
+  display: flex;
+}
+
+section,footer {
+  width: 100vw;
+  height: 100vh;
+}
+
+#js-wrapper {
+  width: 400vw;
+  flex-wrap: nowrap;
+  will-change: auto;
+}
+
+main {
+  height: 100vh;
+}
+
+video {
+  width: auto;
+  height: 100vh;
+}
+
+.parallax_about {
+  height: max(37vw,100vh);
+  overscroll-behavior: none;
+  flex-wrap: nowrap;
+  padding: 2.562vw 2.562vw 2.562vw 14.641vw;
+}
+
+.parallax_interest {
+  height: max(37vw,100vh);
+  overscroll-behavior: none;
+  flex-wrap: nowrap;
+  padding: 2.562vw 14.641vw 2.562vw 13.104vw;
+}
+
+.portfolios {
+  height: max(51vw,100vh);
+  background-color: var(--base_black);
+}
+
+.portfolios-box {
+  display: flex;
+}
+
+footer {
+  background-color: var(--footer_color);
+  height: 100vh;
+  width: 120vw;
+}
+
+.footer_wraper {
+  background-color: var(--footer_color);
+  height: max(50vw,100vh);
+  width: 120vw;
+}

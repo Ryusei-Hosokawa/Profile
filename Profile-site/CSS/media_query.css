@@ -1,0 +1,784 @@
+/* 
+Mediaquery
+*/
+
+/* Tablet */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* display when loading */
+    #value {
+        position: absolute;
+        top: 95.923vw;
+        left: 11.99vw;
+    }
+
+    /* Base */
+    #js-wrapper {
+        width: 1041.5vw;
+    }
+
+    /* Parallax */
+    .parallax {
+        width: 814.551vw;
+        padding: 20.508vw 29.297vw;
+        display: flex;
+        justify-content: start;
+    }
+
+    .parallax_about{
+        width: 364.478vw;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    /* About */
+    #about-link {
+        display: flex;
+    }
+
+    #about-link h1 {
+        font-size: 31.25vw;
+        margin: 2.93vw 0 0 21.484vw;
+        letter-spacing: -2.214vw;
+    }
+
+    #about-link > div {
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 38.086vw;
+        left: 58.594vw;
+    }
+    #about-link h2 {
+        font-size: clamp( 35px, 4.883vw, 50px);
+        white-space: nowrap;
+    }
+    
+    #about-link p {
+        font-size: clamp( 16px, 2.93vw, 30px);
+    }
+    
+    #about-link p span {
+        display: inline-block;
+        letter-spacing: 0.08em;
+        margin-right: 0.3em;
+    }
+
+    /* Photos 1 */
+    .para_photo_lemon {
+        position: absolute;
+        bottom: 0;
+        left: 215.137vw;
+        width: 69.58vw;
+        height: 49.805vw;
+    }
+
+    .para_photo_sapporo {
+        position: absolute;
+        top: 0;
+        left: 289.014vw;
+        width: 46.143vw;
+        height: 32.227vw;
+    }
+
+    /* Interest */
+
+    .parallax_interest {
+        position: relative;
+        width: 391.427vw;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #interest-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin: 0;
+    }
+
+    #interest-link div {
+        width: 92.676vw;
+        position: absolute;
+        bottom: 0;
+        left: 83.008vw;
+    }
+
+    #interest-link h1 {
+        font-size: 31.25vw;
+        margin: 0 14.648vw 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: -2.214vw;
+    }
+
+    #interest-link p {
+        font-size: clamp( 16px, 2.93vw, 30px);
+        letter-spacing: .08em;
+        margin-right: .3em;
+    }
+    
+    #interest-link p span {
+        display: inline-block;
+    }
+
+    /* Photos 2 */
+    .para_photo_autumn {
+        position: absolute;
+        bottom: 0;
+        left: 246.289vw;
+        width: 55.664vw;
+        height: 39.551vw;
+    }
+
+    .para_photo_starry {
+        position: absolute;
+        top: 0;
+        left: 307.813vw;
+        width: 83.643vw;
+        height: 57.129vw;
+    }
+
+    /* Portfolios */
+    .portfolios {
+        width: 127vw;
+        padding: 0;
+    }
+
+    .portfolios-box {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .title_wraper {
+        width: 13%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .portfolios-box h1 {
+        margin: 380px 0 0 5px;
+        font-size: 25.25vw;
+        letter-spacing: -1.465vw;
+        transform: rotate(-90deg);
+    }
+
+    .portfolio_card_wraper {
+        height: 100vh;
+        width: 87%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .portfolio-card {
+        height: 700px;
+        width: 700px;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+        margin-bottom: 19.531vw;
+    }
+
+    .portfolio-card .portfolio-content {
+        font-size: 70px;
+        text-align: center;
+        color: var(--glass_card_text);
+        white-space: nowrap;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .portfolio-card .portfolio-content a {
+        display: inline-block;
+        font-size: 1.563vw;
+        margin-top: 1.953vw;
+        padding: 0.488vw 1.953vw;
+        border-radius: 50px;
+        overflow: hidden;
+        color: var(--base_black);
+        background-color: var(--glass_card_text);
+    }
+
+    .kitakan {
+        background-image: url(../IMAGE&VIDEO/kitakan_baw.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: initial;
+        
+    }
+
+    /* Navigation */
+    button {
+        width: 60px;
+        height: 60px;
+        border-radius: 0 0 0 6px;
+    }
+
+    button span {
+        width: 100px;
+        height: 1px;
+    }
+
+    nav {
+        font-size: 4.883vw;
+        line-height: 1.1em;
+    }
+
+    nav div {
+        width: 6.5em;
+        white-space: nowrap;
+    }
+
+    nav ul:first-child {
+        border-bottom: solid 3px var(--nav_text);
+    }
+
+    .nav-wraper {
+        width: 100vw;
+    }
+
+    /* Footer */
+    
+    .footer-box>div~div {
+        font-size: 4.883vw;
+        line-height: 1.1em;
+        width: 6.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 429px) and (max-width: 768px) {
+    /* display when loading */
+    #value {
+        position: absolute;
+        top: 91.146vw;
+        left: 13.021vw;
+    }
+
+    #js-wrapper {
+        width: 1041.5vw;
+    }
+
+    /* Parallax */
+    .parallax {
+        width: 814.551vw;
+        padding: 20.508vw 29.297vw;
+        display: flex;
+        justify-content: start;
+    }
+
+    .parallax_about{
+        width: 364.478vw;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    /* About */
+    #about-link {
+        display: flex;
+    }
+
+    #about-link h1 {
+        font-size: 31.25vw;
+        margin: 2.93vw 0 0 21.484vw;
+        letter-spacing: -2.214vw;
+    }
+
+    #about-link>div {
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 38.086vw;
+        left: 58.594vw;
+    }
+    #about-link h2 {
+        font-size: clamp( 35px, 4.883vw, 50px);
+        white-space: nowrap;
+    }
+    
+    #about-link p {
+        font-size: clamp( 16px, 2.93vw, 30px);
+    }
+    
+    #about-link p span {
+        display: inline-block;
+        letter-spacing: 0.08em;
+        margin-right: 0.3em;
+    }
+
+    /* Photos 1 */
+    .para_photo_lemon {
+        position: absolute;
+        bottom: 0;
+        left: 215.137vw;
+        width: 69.58vw;
+        height: 49.805vw;
+    }
+
+    .para_photo_sapporo {
+        position: absolute;
+        top: 0;
+        left: 289.014vw;
+        width: 46.143vw;
+        height: 32.227vw;
+    }
+
+    /* Interest */
+
+    .parallax_interest {
+        position: relative;
+        width: 391.427vw;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #interest-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin: 0;
+    }
+
+    #interest-link div {
+        width: 92.676vw;
+        position: absolute;
+        bottom: 0;
+        left: 83.008vw;
+    }
+
+    #interest-link h1 {
+        font-size: 31.25vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: -2.214vw;
+    }
+
+    #interest-link p {
+        font-size: clamp( 16px, 2.93vw, 30px);
+        letter-spacing: .08em;
+        margin-right: .3em;
+    }
+    
+    #interest-link p span {
+        display: inline-block;
+    }
+
+    /* Photos 2 */
+    .para_photo_autumn {
+        position: absolute;
+        bottom: 0;
+        left: 246.289vw;
+        width: 55.664vw;
+        height: 39.551vw;
+    }
+
+    .para_photo_starry {
+        position: absolute;
+        top: 0;
+        left: 307.813vw;
+        width: 83.643vw;
+        height: 57.129vw;
+    }
+
+    /* Portfolios */
+    .portfolios {
+        width: 127vw;
+        padding: 0;
+    }
+
+    .portfolios-box {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .title_wraper {
+        width: 13%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .portfolios-box h1 {
+        font-size: 31.25vw;
+        letter-spacing: -0.911vw;
+    }
+
+    .portfolio_card_wraper {
+        height: 100vh;
+        width: 87%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .portfolio-card {
+        height: 400px;
+        width: 400px;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+    }
+
+    .portfolio-card .portfolio-content {
+        font-size: 3em;
+        text-align: center;
+        color: var(--glass_card_text);
+        white-space: nowrap;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .portfolio-card .portfolio-content a {
+        display: inline-block;
+        font-size: 1.563vw;
+        margin-top: 1.953vw;
+        padding: 0.488vw 1.953vw;
+        border-radius: 50px;
+        overflow: hidden;
+        color: var(--base_black);
+        background-color: var(--glass_card_text);
+    }
+
+    .kitakan {
+        background-image: url(../IMAGE&VIDEO/kitakan_baw.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: initial;
+    }
+
+    /* Navigation */
+    button {
+        width: 60px;
+        height: 60px;
+        border-radius: 0 0 0 6px;
+    }
+
+    nav {
+        font-size: 4.883vw;
+        line-height: 1.1em;
+    }
+
+    nav div {
+        width: 6.5em;
+        white-space: nowrap;
+    }
+
+    nav ul:first-child {
+        border-bottom: solid 3px var(--nav_text);
+    }
+
+    .nav-wraper {
+        width: 100vw;
+    }
+
+    /* Footer */
+    
+    .footer-box>div~div {
+        font-size: 4.883vw;
+        line-height: 1.1em;
+        width: 6.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* SmartPhone */
+@media screen and (max-width: 428px) {
+    /* display when loading */
+    #value {
+        position: absolute;
+        top: 128.205vw;
+        left: 12.821vw;
+    }
+
+    /* base */
+    #js-wrapper {
+        width: 1533.7vw;
+    }
+
+    /* Parallax */
+    .parallax br {
+        display: none;
+    }
+    
+    .parallax_about{
+        width: 520.933vw;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .parallax {
+        width: 1148.533vw;
+        padding: 18.667vw 53.333vw;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    /* About */
+    #about-link {
+        display: flex;
+    }
+    
+    #about-link h1 {
+        font-size: clamp( 50px, 21.333vw, 80px);
+        margin: 0 40vw 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30.333vw;
+    }
+    
+    #about-link > div {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 66.667vw;
+    }
+    #about-link h2 {
+        font-size: clamp( 20px, 9.333vw, 35px);
+        white-space: nowrap;
+    }
+    
+    #about-link p {
+        font-size: clamp( 10px, 4.267vw, 16px);
+    }
+    
+    #about-link p span {
+        display: block;
+        letter-spacing: 0.13em;
+        margin-right: 0.3em;
+    }
+    
+    /* Photos 1 */
+    .para_photo_lemon {
+        position: absolute;
+        bottom: 18.667vw;
+        left: 274.133vw;
+        width: 126.667vw;
+        height: auto;
+    }
+    
+    .para_photo_sapporo {
+        position: absolute;
+        top: 18.667vw;
+        left: 408.8vw;
+        width: 84vw;
+        height: auto;
+    }
+    
+    /* Interest */
+
+    .parallax_interest {
+        position: relative;
+        width: 520.933vw;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #interest-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin: 0;
+    }
+    
+    #interest-link div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #interest-link h1 {
+        font-size: clamp( 50px, 21.333vw, 80px);
+        margin: 0 40vw 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30.333vw;
+    }
+    
+    #interest-link p {
+        font-size: clamp( 10px, 4.267vw, 16px);
+    }
+    
+    #interest-link p span {
+        display: block;
+    }
+    
+    /* Photos 2 */
+    .para_photo_autumn {
+        position: absolute;
+        bottom: 18.667vw;
+        left: 273.733vw;
+        width: 101.333vw;
+        height: auto;
+    }
+    
+    .para_photo_starry {
+        position: absolute;
+        top: 18.667vw;
+        left: 368.56vw;
+        width: 152.267vw;
+        height: auto;
+    }
+    
+    /* Portfolios */
+    .portfolios {
+        width: 285vw;
+        padding: 0;
+    }
+    
+    .portfolios-box {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .title_wraper {
+        width: 6%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .portfolios-box h1 {
+        transform: translate(-200px ,-60px) rotate(90deg);
+        font-size: 30.333vw;
+    }
+    
+    .portfolio_card_wraper {
+        height: 100vh;
+        width: 87%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .portfolio-card {
+        height:300px;
+        width: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+        transform: rotate(0);
+    }
+    
+    .portfolio-card .portfolio-content {
+        font-size: 35px;
+        color: var(--glass_card_text);
+        white-space: nowrap;
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .portfolio-card .portfolio-content a {
+        display: inline-block;
+        font-size: 4.267vw;
+        margin-top: 5.333vw;
+        padding: 1.333vw 5.333vw;
+        border-radius: 13.333vw;
+        overflow: hidden;
+        color: var(--base_black);
+        background-color: var(--glass_card_text);
+    }
+    
+    .kitakan {
+        background-image: url(../IMAGE&VIDEO/kitakan_baw.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: initial;
+    }
+    
+    /* Navigation */
+    button {
+        width: 16vw;
+        height: 16vw;
+        border-radius: 0 0 0 2.133vw;
+    }
+    
+    button span {
+        width: 70px;
+        height: 1px;
+    }
+    
+    nav {
+        font-size: 13.333vw;
+        line-height: 14.667vw;
+    }
+    
+    nav div {
+        width: 6.5em;
+        white-space: nowrap;
+    }
+    
+    nav ul:first-child {
+        border-bottom: solid 3px var(--nav_text);
+    }
+    
+    .nav-wraper {
+        width: 100vw;
+    }
+    
+    /* Footer */
+    .footer-box>div~div {
+        font-size: 13.333vw;
+        line-height: 14.667vw;
+        width: 6.5em;
+    }
+}
