@@ -262,7 +262,7 @@ if (window.matchMedia('(max-width: 428px)').matches) { //Mobile
     gsap.set( interestTitle, {
         opacity: 0,
         y: 50,
-        x: -100,
+        x: -200,
     });
     gsap.to( interestTitle, {
         scrollTrigger: {
@@ -696,15 +696,15 @@ window.onload = () => {
         value.innerHTML = `${i}`;
         i ++;
         if(i > maximumNumber) {
-          clearInterval(timerId);
+            clearInterval(timerId);
         };
     }, speed);
-            
+    
     setTimeout(() => {
-          loading.classList.add("loading_finish");
-          body.classList.remove("display_fixde");
+        loading.classList.add("loading_finish");
     }, 5000);
     setTimeout(() => {
-          loading.classList.add("loading_finish_a");
+        loading.classList.add("loading_finish_a");
+        body.classList.remove("display_fixde");
     }, 7200);
 };
