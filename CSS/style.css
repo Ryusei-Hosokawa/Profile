@@ -150,7 +150,6 @@ button span:nth-child(2) {
     height: 100vh;
     background: rgba(var(--glass_color));
     backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
     transform: translate(100%);
     position: fixed;
     z-index: 50;
@@ -260,6 +259,7 @@ Parallax
 #about-link h2 {
     line-height: 2em;
     font-size: clamp( 30px, 2.196vw, 90px);
+    letter-spacing: -0.037vw;
     font-family: yu-mincho-pr6n, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -279,7 +279,7 @@ Parallax
 
 #about-link p span {
     display: inline-block;
-    letter-spacing: 0.13em;
+    letter-spacing: 0.022vw;
     margin-right: 0.732vw;
 }
 
@@ -291,6 +291,7 @@ Parallax
     bottom: 2.562vw;
     left: 38.799vw;
     z-index: 30;
+    opacity: 0.9;
 }
 
 .para_photo_sapporo {
@@ -300,6 +301,7 @@ Parallax
     top: 13.909vw;
     left: 74.305vw;
     z-index: 10;
+    opacity: 0.8;
 }
 
 /* Interest */
@@ -316,6 +318,7 @@ Parallax
     bottom: 9.883vw;
     left: 13.104vw;
     z-index: 20;
+    opacity: 0.9;
 }
 
 .para_photo_starry {
@@ -325,6 +328,7 @@ Parallax
     top: 2.562vw;
     left: 34.261vw;
     z-index: 40;
+    opacity: 0.95;
 }
 
 /* Interest text */
@@ -361,7 +365,7 @@ Parallax
 
 #interest-link p span {
     display: inline-block;
-    letter-spacing: 0.13em;
+    letter-spacing: 0.022vw;
     margin-right: 0.732vw;
 }
 
