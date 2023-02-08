@@ -209,7 +209,7 @@ const interestTitle = document.querySelector("#interest-link h1");
 if (window.matchMedia('(max-width: 428px)').matches) { //Mobile
     gsap.set( interestTitle, {
         opacity: 0,
-        y: 50,
+        y: 200,
         x: -500,
     });
     gsap.to( interestTitle, {
@@ -221,7 +221,7 @@ if (window.matchMedia('(max-width: 428px)').matches) { //Mobile
         },
         opacity: 1,
         ease: 'power3.inOut',
-        y: 0,
+        y: 150,
     });
     gsap.to( interestTitle, {
         scrollTrigger: {
