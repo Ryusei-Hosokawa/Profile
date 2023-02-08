@@ -118,7 +118,6 @@ button {
     transform: translateZ(0);
     top: 0;
     right: 0;
-    border-radius: 3px;
 }
 
 button span {
