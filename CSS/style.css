@@ -150,6 +150,7 @@ button span:nth-child(2) {
     height: 100vh;
     background: rgba(var(--glass_color));
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     transform: translate(100%);
     position: fixed;
     z-index: 50;
