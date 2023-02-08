@@ -80,7 +80,7 @@ body {
     top: -100%;
     left: -50%;
     z-index: 999;
-    background-image: url(../IMAGE&VIDEO/noise.png);
+    background-image: url(./IMAGE&VIDEO/noise.png);
     animation: grain 8s steps(10) infinite;
 }
 
@@ -150,6 +150,7 @@ button span:nth-child(2) {
     height: 100vh;
     background: rgba(var(--glass_color));
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     transform: translate(100%);
     position: fixed;
     z-index: 50;
