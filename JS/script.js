@@ -262,7 +262,7 @@ if (window.matchMedia('(max-width: 428px)').matches) { //Mobile
     gsap.set( interestTitle, {
         opacity: 0,
         y: 50,
-        x: -300,
+        x: -250,
     });
     gsap.to( interestTitle, {
         scrollTrigger: {
@@ -486,6 +486,7 @@ if (window.matchMedia('(max-width: 428px)').matches) { //Mobile
         ease: 'power3.inOut',
         scale: 1.4,
         x: -300,
+        y: -50,
     });
 };
 
@@ -537,8 +538,9 @@ if (window.matchMedia('(max-width: 428px)').matches) { //Mobile
             scrub: scrubValue,
         },
         ease: 'power3.inOut',
-        scale: 0.8,
+        scale: 0.7,
         x: 50,
+        y: 10,
     });   
 };
 
@@ -589,8 +591,9 @@ if (window.matchMedia('(max-width: 428px)').matches) { //Mobile
             scrub: scrubValue,
         },
         ease: 'power3.inOut',
-        scale: 0.8,
-        x: -50,
+        scale: 0.7,
+        x: 50,
+        y: 100,
     });
 };
 
