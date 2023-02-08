@@ -262,7 +262,7 @@ if (window.matchMedia('(max-width: 428px)').matches) { //Mobile
     gsap.set( interestTitle, {
         opacity: 0,
         y: 50,
-        x: -250,
+        x: -200,
     });
     gsap.to( interestTitle, {
         scrollTrigger: {
