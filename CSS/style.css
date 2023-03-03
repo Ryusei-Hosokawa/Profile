@@ -62,6 +62,8 @@
 /* Base */
 html {
     overscroll-behavior: none;
+    -webkit-overscroll-behavior: none;
+}
 }
 
 body {
