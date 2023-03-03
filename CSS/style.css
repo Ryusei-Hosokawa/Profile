@@ -60,6 +60,10 @@
 }
 
 /* Base */
+html {
+    overscroll-behavior: none;
+}
+
 body {
     -webkit-text-size-adjust: 100%;
     font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans",
