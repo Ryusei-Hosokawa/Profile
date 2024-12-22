@@ -32,7 +32,7 @@ Portfolio link
 }
 
 .kitakan:hover {
-    background-image: url(../IMAGE&VIDEO/kitakan_baw.jpg);
+    filter: brightness(0.5);
     transition:  all .2s .12s ease-out;
 }
 
