@@ -37,7 +37,7 @@ Portfolio link
 
 .kitakan:hover::before {
     content: "";
-    posision: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     z-index: 1;
@@ -49,6 +49,7 @@ Portfolio link
 }
 
 .portfolio-card:hover .portfolio-content {
+    position: relative;
     opacity: 1;
     transition:  all .2s .1s ease-out;
     transform: translateY(0);
