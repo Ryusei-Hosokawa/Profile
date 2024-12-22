@@ -50,6 +50,7 @@ Portfolio link
 
 .portfolio-card:hover .portfolio-content {
     position: relative;
+    z-index: 100;
     opacity: 1;
     transition:  all .2s .1s ease-out;
     transform: translateY(0);
